@@ -1,3 +1,47 @@
-1/ SELECT countries FROM address
+Niveau 1
 
-2/ 
+1. **Sélectionner tous les pays** :
+
+SELECT countries FROM address
+
+2. **Sélectionner tous les noms des entités** :
+
+SELECT name FROM entity
+
+3. **Sélectionner tous les officiers d'un pays spécifique (par exemple, le pays avec l'ID 5)** :
+
+
+4. **Compter le nombre d'entités** :
+
+
+5. **Sélectionner les entités créées après une certaine date (par exemple, le 1er janvier 2000)** :
+
+
+6. **Trouver tous les intermédiaires et leurs adresses associées** :
+
+
+7. **Lister les entités et leurs pays d'origine** :
+
+
+8. **Trouver tous les officiers et intermédiaires qui ont une association** :
+
+
+9. **Lister les entités et leurs sources** :
+
+
+10. **Trouver tous les officiers qui n'ont pas d'URL associée** :
+
+
+11. **Lister les entités et leurs intermédiaires associés** :
+
+
+12. **Trouver le nombre d'entités associées à chaque intermédiaire** :
+
+
+13. **Lister les officiers et leurs statuts** :
+
+
+14. **Trouver les entités qui ont été actives pendant plus de 10 ans (en supposant que "lifetime" est en années)** :
+
+
+15. **Trouver les entités et officiers associés qui ont une relation avant une certaine date (par exemple, le 1er janvier 2010)** :
