@@ -29,7 +29,7 @@ FROM
 intermediary e,
 address a
 WHERE
-e.id_address = a.id_address;
+e.id_address = a.id_address AND a.address != ""
 
 7. **Lister les entités et leurs pays d'origine** :
 
