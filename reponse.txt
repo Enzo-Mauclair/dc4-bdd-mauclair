@@ -33,6 +33,15 @@ e.id_address = a.id_address AND a.address != ""
 
 7. **Lister les entités et leurs pays d'origine** :
 
+SELECT 
+e.name,
+c.country 
+FROM
+entity e,
+country c,
+address a
+WHERE
+e.id_address = a.id_address AND a.countries = c.code
 
 8. **Trouver tous les officiers et intermédiaires qui ont une association** :
 
