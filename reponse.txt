@@ -18,9 +18,18 @@ SELECT COUNT(*) FROM entity
 
 5. **Sélectionner les entités créées après une certaine date (par exemple, le 1er janvier 2000)** :
 
+SELECT * FROM entity WHERE (incorporation_date > 2000-01-01)
 
 6. **Trouver tous les intermédiaires et leurs adresses associées** :
 
+SELECT 
+e.name,
+a.address
+FROM
+intermediary e,
+address a
+WHERE
+e.id_address = a.id_address;
 
 7. **Lister les entités et leurs pays d'origine** :
 
