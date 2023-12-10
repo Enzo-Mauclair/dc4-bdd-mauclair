@@ -49,7 +49,9 @@ e.id_address = a.id_address AND a.countries = c.code
 
 9. **Lister les entités et leurs sources** :
 
-
+SELECT e.name AS EntityName, s.source AS SourceName
+FROM entity e
+JOIN source s ON e.source = s.id;
 
 10. **Trouver tous les officiers qui n'ont pas d'URL associée** :
 
