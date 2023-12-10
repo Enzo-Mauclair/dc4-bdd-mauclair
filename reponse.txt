@@ -46,11 +46,15 @@ e.id_address = a.id_address AND a.countries = c.code
 8. **Trouver tous les officiers et intermédiaires qui ont une association** :
 
 
+
 9. **Lister les entités et leurs sources** :
 
 
 10. **Trouver tous les officiers qui n'ont pas d'URL associée** :
 
+SELECT name 
+FROM officer
+WHERE url IS NULL OR url = '';
 
 11. **Lister les entités et leurs intermédiaires associés** :
 
